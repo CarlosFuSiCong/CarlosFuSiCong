@@ -18,12 +18,9 @@ Based in Adelaide, Australia.
 I like working on problems that are still a little unclear — figuring out what
 actually needs to be built, what AI should handle, and what should stay deterministic.
 
-- **Production AI systems** — LLM workflows, MCP, RAG, structured outputs,
-  validation and evidence checks around model-generated results.
-- **0→1 product engineering** — from workflow and data model to frontend,
-  backend, authentication and integrations.
-- **Systems that can actually run** — deployment, observability, reliability
-  and cost, not just the feature that makes the demo work.
+- **Production AI systems** — LLM workflows, MCP, RAG, structured outputs, validation.
+- **0→1 product engineering** — from workflow and data model to frontend, backend and integrations.
+- **Production ownership** — deployment, reliability and cost, not just the demo.
 
 ---
 
@@ -43,12 +40,15 @@ actually needs to be built, what AI should handle, and what should stay determin
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-**AI**
+**AI systems**
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-5A67D8?style=flat-square)
+![Structured outputs](https://img.shields.io/badge/Structured_outputs-5A67D8?style=flat-square)
+<br>
+<sub>Providers:</sub>
+![OpenAI](https://img.shields.io/badge/OpenAI-6E6E6E?style=flat-square&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-6E6E6E?style=flat-square&logo=claude&logoColor=white)
 
 **Production**
 
@@ -63,23 +63,23 @@ actually needs to be built, what AI should handle, and what should stay determin
 
 A few systems I've taken from problem definition through working software.
 
-**Production**
+**Production systems**
 
 | | |
 |---|---|
-| **[AI Catalyst](https://aicatalyst.toruscap.vc/)** | AI-assisted founder validation, built from early product discussions through system design and production. LLM workflows, MCP and structured outputs around a guided founder journey. |
-| **[Rally](https://investormatch.rallyroadmap.com/)** | Investor intelligence and matching built around actual investment behaviour, combining structured enrichment, deterministic filtering and AI-assisted ranking. |
-| **[Rhombus AI](https://rhombusai.com/)** | Worked on production AI-assisted data transformation, focusing on validation, recovery and safer execution around model-generated actions. |
-| **[Koala Be Where](https://www.koala.fusicong.com/)** | My first end-to-end AI product — computer vision for locating koalas in messy citizen-science photos. |
+| **[AI Catalyst](https://aicatalyst.toruscap.vc/)** | Founder validation product taken from early product discussions through system design and production. |
+| **[Rally](https://investormatch.rallyroadmap.com/)** | Investor intelligence and matching using structured enrichment, deterministic filters and AI-assisted ranking. |
+| **[Rhombus AI](https://rhombusai.com/)** | Production AI data transformation, focused on validation, recovery and safer execution. |
+| **[Koala Be Where](https://www.koala.fusicong.com/)** | My first end-to-end AI product — computer vision for messy citizen-science photos. |
 
 **Open source**
 
 | | |
 |---|---|
-| **[DataCopilot](https://github.com/CarlosFuSiCong/DataCopilot)** | A data-cleaning copilot where AI interprets intent and deterministic code executes the transformation, with every change previewed before execution. |
-| **[SecuFlow](https://github.com/CarlosFuSiCong/Secuflow_Rebuild)** · [live](https://www.secuflow.fusicong.com/) | Turned an academic coordination model with no reference implementation into a working repository-security system, then optimized it for interactive analysis. |
-| **[REAMP](https://github.com/CarlosFuSiCong/Reamp)** · [live](https://www.reamp.fusicong.com/) | A multi-role real-estate media workflow built around shared data, role-based permissions and end-to-end job tracking. |
-| **[IoT Watch](https://github.com/CarlosFuSiCong/IoT-Watch)** · [live](https://www.iotwatch.fusicong.com/) | Real-time IoT monitoring built around event-driven data, state transitions and alerts that trigger on meaningful changes rather than every message. |
+| **[DataCopilot](https://github.com/CarlosFuSiCong/DataCopilot)** | AI interprets the intent, deterministic code runs the transformation — every change previewed first. |
+| **[SecuFlow](https://github.com/CarlosFuSiCong/Secuflow_Rebuild)** · [live](https://www.secuflow.fusicong.com/) | An academic coordination model with no reference implementation, turned into a working repository-security system. |
+| **[REAMP](https://github.com/CarlosFuSiCong/Reamp)** · [live](https://www.reamp.fusicong.com/) | Multi-role real-estate media workflow — shared data, role-based permissions, job tracking. |
+| **[IoT Watch](https://github.com/CarlosFuSiCong/IoT-Watch)** · [live](https://www.iotwatch.fusicong.com/) | Real-time IoT monitoring — event-driven data, state transitions, alerts on meaningful change rather than every message. |
 
 ---
 
